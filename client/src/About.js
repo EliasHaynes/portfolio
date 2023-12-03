@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
-
 function About() {
     return (
         <Container>
@@ -18,15 +16,21 @@ function About() {
     )
 }
 
-export default About;
-
 const Container = styled.div `
+    display:flex;
+    flex-direction: column;
+    align-items:center;
     width: 100%;
-    height:100%;
-`
+`;
 
 const AboutMe = styled.div `
+    display:flex;
+    
     width:33&;
-    height:33%;
-`
+
+`;
+
+export default About;
+
+
 
