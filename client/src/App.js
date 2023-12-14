@@ -5,10 +5,12 @@ import Projects from "./Projects";
 import Work from "./Work";
 import Resume from "./Resume";
 import NavBar from "./NavBar";
+import LandingPage from "./LandingPage";
 
 function App() {
   return (
     <div className="parentContainer">
+      <LandingPage></LandingPage>
       <About></About>
       <Projects></Projects>
       <Work></Work>

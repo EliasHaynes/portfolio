@@ -23,15 +23,18 @@ function Projects() {
           <ProjectImgContainer>
             <ProjectImg src={vehicleImg} className="vehicle-img" />
           </ProjectImgContainer>
-          <h4>Vehicle</h4>
-          <ProjectSkills>
-            <span>Vehicle</span>
-            <span>Vehicle</span>
-            <span>Vehicle</span>
-            <span>Vehicle</span>
-            <span>Vehicle API</span>
-            <span></span>
-          </ProjectSkills>
+          <h4>Scheduled Vehicle Maintenance</h4>
+          <ProjectSkillsContainer>
+            <ProjectSkill>Vehicle</ProjectSkill>
+            <ProjectSkill>Vehicle</ProjectSkill>
+            <ProjectSkill>Vehicle</ProjectSkill>
+            <ProjectSkill>Vehicle</ProjectSkill>
+            <ProjectSkill>Vehicle API</ProjectSkill>
+            <ProjectSkill>Maintenance App</ProjectSkill>
+            <ProjectSkill>Maintenance App</ProjectSkill>
+            <ProjectSkill>Maintenance App</ProjectSkill>
+            
+          </ProjectSkillsContainer>
           <h4>Watch this presentation of the project</h4>
           <ProjectVideo
             width="560"
@@ -58,15 +61,15 @@ function Projects() {
           <ProjectImgContainer>
             <ProjectImg src={jobImg} />
           </ProjectImgContainer>
-          <h4>Job</h4>
-          <ProjectSkills>
-            <span>job</span>
-            <span>job</span>
-            <span>job</span>
-            <span>job</span>
-            <span>job</span>
-            <span></span>
-          </ProjectSkills>
+          <h4>Job Application Tracker</h4>
+          <ProjectSkillsContainer>
+            <ProjectSkill>job</ProjectSkill>
+            <ProjectSkill>job</ProjectSkill>
+            <ProjectSkill>job</ProjectSkill>
+            <ProjectSkill>job</ProjectSkill>
+            <ProjectSkill>job</ProjectSkill>
+            <ProjectSkill></ProjectSkill>
+          </ProjectSkillsContainer>
           <h4>Watch this presentation of the project</h4>
           <ProjectVideo
             width="560"
@@ -94,16 +97,16 @@ function Projects() {
             <ProjectImg src={tutorImg} />
           </ProjectImgContainer>
 
-          <h4>Tutor</h4>
-          <ProjectSkills>
-            <span>Tutor</span>
-            <span>Tutor</span>
-            <span>Tutor</span>
-            <span>Tutor</span>
-            <span>Tutor</span>
-            <span></span>
-          </ProjectSkills>
-          <h4>Watch this presentation of the project</h4>
+          <h4>AI Chatbot Tutor</h4>
+          <ProjectSkillsContainer>
+            <ProjectSkill>Tutor</ProjectSkill>
+            <ProjectSkill>Tutor</ProjectSkill>
+            <ProjectSkill>Tutor</ProjectSkill>
+            <ProjectSkill>Tutor</ProjectSkill>
+            <ProjectSkill>Tutor</ProjectSkill>
+            <ProjectSkill></ProjectSkill>
+          </ProjectSkillsContainer>
+          <h4>Watch this short project presentation</h4>
           <ProjectVideo
             src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
             title="YouTube video player"
@@ -171,19 +174,41 @@ const ProjectContainer = styled.div`
 const PortfolioNav = styled.div`
   display: flex;
   justify-content: space-around;
+  @media (max-width:768px) {
+    flex-direction: column;
+    align-items:center;
+  }
 `;
 
-const ProjectSkills = styled.div`
-  margin-right: 2%;
+const ProjectSkillsContainer = styled.div`
+display:flex;
+flex-flow: row wrap;
+
+
 `;
+
+const ProjectSkill = styled.span`
+border: 1px solid orangered;
+  border-radius:5px;
+  margin-right:5px;
+  font-size:.75em;
+  margin-bottom: 5px;
+  color: orangered;
+`
 
 const ButtonNav = styled.button`
+  width:30%;
   border: none;
-  border-bottom: 2px solid blue;
+  background-color: black;
+  color:white;
+  border-bottom: 2px solid purple;
+  cursor: pointer;
+  margin-bottom: 5%;
 `;
 
 const SelectedButtonNav = styled(ButtonNav)`
   border-bottom: 3px solid red;
+  color: red;
 `;
 
 const ProjectImgContainer = styled.div`
@@ -202,9 +227,12 @@ const ProjectImg = styled.img`
   max-height: 900px;
 `;
 
+
 const ProjectVideo = styled.iframe`
-  width: 75%;
-  height: 75%;
+  width: 50vw;
+  height: 30vh;
 `;
+
+
 
 export default Projects;
