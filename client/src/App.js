@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
 import About from "./About";
 import Projects from "./Projects";
@@ -6,6 +6,8 @@ import Work from "./Work";
 import Resume from "./Resume";
 import NavBar from "./NavBar";
 import LandingPage from "./LandingPage";
+import Contact from "./Contact";
+
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
       <LandingPage></LandingPage>
       <About></About>
       <Projects></Projects>
-      <Work></Work>
       <Resume></Resume>
+      <Contact></Contact>
     </div>
   );
 }

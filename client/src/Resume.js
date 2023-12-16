@@ -1,21 +1,28 @@
-import React from "react";
+
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
+import PDFViewer from "./PDFViewer";
+
 
 function Resume() {
-    return (
-        <Container>
-            <h2>My Resume</h2>
-        </Container>
-    )
+  
+  return (
+    <Container>
+      <h2>My Experience</h2>
+<PDFViewer></PDFViewer>
+    </Container>
+  );
 }
 
 const Container = styled.div`
-    display:flex;
-    height:100vh;
-    flex-direction: column;
-    align-items:center;
-    width: 100%;
-    
+  display: flex;
+  height: auto;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
 `;
 
 export default Resume;
+
+

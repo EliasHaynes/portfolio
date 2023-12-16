@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
 code {
@@ -21,10 +22,4 @@ code {
 
 
 
-/* .parentContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-} */
+

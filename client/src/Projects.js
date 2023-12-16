@@ -35,7 +35,7 @@ function Projects() {
             <ProjectSkill>Maintenance App</ProjectSkill>
             
           </ProjectSkillsContainer>
-          <h4>Watch this presentation of the project</h4>
+          <h4>Watch this short project presentation</h4>
           <ProjectVideo
             width="560"
             height="315"
@@ -70,7 +70,7 @@ function Projects() {
             <ProjectSkill>job</ProjectSkill>
             <ProjectSkill></ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Watch this presentation of the project</h4>
+          <h4>Watch this short project presentation</h4>
           <ProjectVideo
             width="560"
             height="315"
@@ -183,8 +183,6 @@ const PortfolioNav = styled.div`
 const ProjectSkillsContainer = styled.div`
 display:flex;
 flex-flow: row wrap;
-
-
 `;
 
 const ProjectSkill = styled.span`
