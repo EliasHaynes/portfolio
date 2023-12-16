@@ -12,6 +12,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <div className="parentContainer">
+      <NavBar></NavBar>
       <LandingPage></LandingPage>
       <About></About>
       <Projects></Projects>
