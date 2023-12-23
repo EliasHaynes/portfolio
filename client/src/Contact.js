@@ -4,31 +4,13 @@ import styled from "styled-components";
 const key = process.env.ACCESS_KEY;
 
 function Contact() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   return (
     <Container>
       <h2>Contact Me</h2>
-      {/* <Form action="https://api.web3forms.com/submit" method="POST" onSubmit={(e) => handleSubmit(e)}>
-            <input type="hidden" name="access_key" value={key}/>
-            <input type="hidden" name="subject" value="PortFolio Contact"></input>
-                <InputContainer>
-                    <label for="name"></label>
-                    <Input type="text" id="name" placeholder="Name"></Input>
-                    <label for="email"></label>
-                    <Input type="email" id="email" placeholder="Email"></Input>
-                    <label for="message"></label>
-                </InputContainer>
-                <TextAreaContainer>
-                  <TextArea id="message" placeholder="Message"></TextArea>  
-                </TextAreaContainer>
-                <Submit>Submit</Submit>
-            
-            </Form> */}
 
-      <Form action="https://api.web3forms.com/submit" method="POST">
+
+      <Form  action="https://api.web3forms.com/submit" method="POST">
         {/* Configuration of Emailing */}
         <input
           type="hidden"
@@ -61,7 +43,7 @@ const Container = styled.div`
   width: 100%;
   flex-direction: column;
   align-items: center;
-  border: 5px solid purple;
+  
 `;
 
 const Form = styled.form`
@@ -70,6 +52,7 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid red;
 `;
 
 const InputContainer = styled.div`

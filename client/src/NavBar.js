@@ -38,18 +38,21 @@ const Menu = ({ open, ...props }) => {
   
     return (
       <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-        <a href="/" tabIndex={tabIndex}>
-          <span aria-hidden="true">💁🏻‍♂️</span>
-          About us
-        </a>
-        <a href="/" tabIndex={tabIndex}>
-          <span aria-hidden="true">💸</span>
-          Pricing
-          </a>
-        <a href="/" tabIndex={tabIndex}>
-          <span aria-hidden="true">📩</span>
+        <NavTab href="/" tabIndex={tabIndex}>
+          Home
+        </NavTab>
+        <NavTab href="/" tabIndex={tabIndex}>
+          About Me
+        </NavTab>
+        <NavTab href="/" tabIndex={tabIndex}>
+          Projects
+        </NavTab>
+        <NavTab href="/" tabIndex={tabIndex}>
+          Resume
+        </NavTab>
+        <NavTab href="/" tabIndex={tabIndex}>
           Contact
-          </a>
+        </NavTab>
       </StyledMenu>
     )
   }
@@ -107,14 +110,10 @@ const BurgerMenu = styled.div`
     }
 `;
 
-const NameTag = styled.div`
-
-`;
-
 const StyledBurger = styled.button`
-  position: absolute;
-  top: 5%;
-  left: 2rem;
+  position: fixed;
+  top: 2%;
+  left: 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,43 +149,39 @@ const StyledBurger = styled.button`
   }
 `;
 
+// ---------------- Menu Components and Styling ---------------- //
 const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: ${({ theme }) => theme.primaryLight};
+  justify-content: space-around;
+  background: orangered;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
   text-align: left;
-  padding: 2rem;
-  position: absolute;
+  padding: 2em;
+  position: fixed;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
+  opacity: 0.9;
+  z-index: 2;
+  
+  @media (max-width:768px) {
+      width: auto;
+      height: 33vh;
+    };
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-      width: 100%;
+    :hover {
+      color: purple;
     }
-
-  a {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
-    color: ${({ theme }) => theme.primaryDark};
-    text-decoration: none;
-    transition: color 0.3s linear;
-
-    @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    &:hover {
-      color: ${({ theme }) => theme.primaryHover};
-    }
-  }
+  
 `;
+
+const NavTab = styled.a`
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+`
 
 export default NavBar;
