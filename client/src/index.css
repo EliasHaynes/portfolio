@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
+  color: black;
   overflow-x: hidden;
+  background-color: rgb(63, 67, 71);
 }
 
 code {
@@ -15,11 +15,32 @@ code {
     monospace;
 }
 
- h1, h2 {
+h1,
+h2 {
   color: orangered;
+  background-color: black;
+  border: 7px outset rgb(143, 44, 9);
+
 }
 
+path,
+ellipse,
+polygon,
+polyline,
+line {
+  stroke: black;
+}
+#smoke path {
+  stroke: none;
+  fill: #e6480ec2;
+}
+#lugnuts path {
+  stroke: #808080;
+  fill: none;
+}
 
-
+h4 {
+  color: black;
+}
 
 

@@ -35,7 +35,7 @@ function Projects() {
             <ProjectSkill>Maintenance App</ProjectSkill>
             
           </ProjectSkillsContainer>
-          <h4>Watch this short project presentation</h4>
+          <h4>Watch this short project presentation:</h4>
           <ProjectVideo
             width="560"
             height="315"
@@ -70,7 +70,7 @@ function Projects() {
             <ProjectSkill>job</ProjectSkill>
             <ProjectSkill></ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Watch this short project presentation</h4>
+          <h4>Watch this short project presentation:</h4>
           <ProjectVideo
             width="560"
             height="315"
@@ -106,7 +106,7 @@ function Projects() {
             <ProjectSkill>Tutor</ProjectSkill>
             <ProjectSkill></ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Watch this short project presentation</h4>
+          <h4>Watch this short project presentation:</h4>
           <ProjectVideo
             src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
             title="YouTube video player"
@@ -169,12 +169,13 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  background-color:rgb(63, 67, 71);
+  color:white;
 `;
 
 const PortfolioNav = styled.div`
   display: flex;
   justify-content: space-around;
-  
   @media (max-width:768px) {
     flex-direction: column;
     align-items:center;
@@ -198,16 +199,16 @@ border: 1px solid orangered;
 const ButtonNav = styled.button`
   width:30%;
   border: none;
-  background-color: black;
+  background-color: rgb(63, 67, 71);
   color:white;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid black;
   cursor: pointer;
   margin-bottom: 5%;
 `;
 
 const SelectedButtonNav = styled(ButtonNav)`
-  border-bottom: 3px solid red;
-  color: red;
+  border-bottom: 3px solid orangered;
+  color: orangered;
 `;
 
 const ProjectImgContainer = styled.div`
@@ -216,20 +217,25 @@ const ProjectImgContainer = styled.div`
   margin: 1px;
   width: 50%;
   height: 50%;
+
 `;
 
 const ProjectImg = styled.img`
-  border: 1px solid blue;
+  border: 1px solid orangered;
   width: 75vw;
   height: 30vh;
   max-width: 900px;
   max-height: 900px;
+  border-radius: 20px;
+  box-shadow: -16px 6px orangered;
 `;
 
 
 const ProjectVideo = styled.iframe`
   width: 50vw;
   height: 30vh;
+  border-radius: 20px;
+  box-shadow: 30px -16px orangered;
 `;
 
 

@@ -29,15 +29,23 @@ const Container = styled.div `
 
 const AboutMeContainer = styled.div `
     display:flex;
-    border: 2px solid orangered;
+    border: 8px outset orangered;
     width:60%;
     flex-direction: column;
     border-radius: 20px;
     margin-right: 10%;
+    background-color: black;
+    color: white;
+    box-shadow: 60px -16px rgb(143, 44, 9);
+    @media(max-width: 768px) {
+        box-shadow: 30px -10px rgb(143, 44, 9);
+    }
+
 `;
 
 const AboutMeHeading = styled.h2`
     color: orangered;
+    border: none;
 `
 
 const AboutMeContent = styled.p`

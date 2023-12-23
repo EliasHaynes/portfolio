@@ -4,7 +4,7 @@ import styled from "styled-components";
 const key = process.env.ACCESS_KEY;
 
 function Contact() {
-
+  
   return (
     <Container>
       <h2>Contact Me</h2>
@@ -31,7 +31,7 @@ function Contact() {
         </InputContainer>
         <TextArea name="message" placeholder="Message" required></TextArea>
 
-        <Submit type="submit">Submit Form</Submit>
+        <Submit type="submit">Get in Touch!</Submit>
       </Form>
     </Container>
   );
@@ -43,7 +43,8 @@ const Container = styled.div`
   width: 100%;
   flex-direction: column;
   align-items: center;
-  
+  justify-content: flex-start;
+
 `;
 
 const Form = styled.form`
@@ -53,6 +54,14 @@ const Form = styled.form`
   flex-direction: column;
   align-items: center;
   border: 1px solid red;
+  background-color:black;
+  box-shadow: 60px -16px orangered;
+border-radius: 20px;
+@media(max-width: 768px) {
+  box-shadow: 20px -10px orangered;
+  width: 85%;
+
+}
 `;
 
 const InputContainer = styled.div`
@@ -74,6 +83,8 @@ const Submit = styled.button`
   background-color: black;
   color: orangered;
   border: 1px solid orangered;
+  border-radius: 20px;
+  box-shadow: 5px -5px orangered;
 `;
 
 const TextArea = styled.textarea`

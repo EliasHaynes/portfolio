@@ -31,7 +31,6 @@ const Container = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
 `;
 
 const PDFContainer = styled.div`
@@ -39,6 +38,15 @@ const PDFContainer = styled.div`
   max-width: 900px;
   height: 90vh;
   overflow-y:hidden;
+  border:8px outset orangered;
+  box-shadow: -16px 6px rgb(143, 44, 9);
+  @media (max-width: 768px) {
+    box-shadow: none;
+    border:2px outset orangered;
+    width: 99%;
+  }
+
+
 `;
 
 export default PDFViewer;
