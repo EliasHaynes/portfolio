@@ -1,5 +1,11 @@
 {
+  "homepage": "https://github.com/EliasHaynes.github.io/portfolio/client",
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
