@@ -53,7 +53,6 @@ function LandingPage() {
           </filter>
         </svg>
       </Smoke>
-      <Bike></Bike>
     </Container>
   );
 }
@@ -64,16 +63,15 @@ const Container = styled.div`
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
 `;
 
 const LandingHeaderWrapper = styled.div`
     height:50vh;
     width:100%;
-
 `
 
 const LandingHeader = styled.div`
-  margin-right: 5%;
   font-size: 800%;
   @media (max-width: 768px) {
     font-size: 600%;
