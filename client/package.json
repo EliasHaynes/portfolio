@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages -r git+https://github.com/EliasHaynes/portfolio.git",
+    "deploy": "gh-pages -d build -b gh-pages -r https://github.com/EliasHaynes/portfolio.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
