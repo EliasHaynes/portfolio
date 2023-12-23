@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/EliasHaynes.github.io/portfolio/client/static/css/main.d6aba453.css",
+    "main.js": "/EliasHaynes.github.io/portfolio/client/static/js/main.01fb4e6f.js",
+    "static/media/Screenshot 2023-12-02 200024.png": "/EliasHaynes.github.io/portfolio/client/static/media/Screenshot 2023-12-02 200024.c68476265c65b4b1f699.png",
+    "static/media/Screenshot 2023-12-02 195841.png": "/EliasHaynes.github.io/portfolio/client/static/media/Screenshot 2023-12-02 195841.eb1508c5b8b6ad5f9485.png",
+    "static/media/Elias-Haynes-SWE-Resume.pdf": "/EliasHaynes.github.io/portfolio/client/static/media/Elias-Haynes-SWE-Resume.7366da08c2b675de0be9.pdf",
+    "static/media/Capstone-Icon-Ss.png": "/EliasHaynes.github.io/portfolio/client/static/media/Capstone-Icon-Ss.cd4823af6e588a6a4175.png",
+    "index.html": "/EliasHaynes.github.io/portfolio/client/index.html",
+    "main.d6aba453.css.map": "/EliasHaynes.github.io/portfolio/client/static/css/main.d6aba453.css.map",
+    "main.01fb4e6f.js.map": "/EliasHaynes.github.io/portfolio/client/static/js/main.01fb4e6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6aba453.css",
+    "static/js/main.01fb4e6f.js"
+  ]
+}
