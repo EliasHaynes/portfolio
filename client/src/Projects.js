@@ -25,14 +25,17 @@ function Projects() {
           </ProjectImgContainer>
           <h4>Scheduled Vehicle Maintenance</h4>
           <ProjectSkillsContainer>
-            <ProjectSkill>Vehicle</ProjectSkill>
-            <ProjectSkill>Vehicle</ProjectSkill>
-            <ProjectSkill>Vehicle</ProjectSkill>
-            <ProjectSkill>Vehicle</ProjectSkill>
-            <ProjectSkill>Vehicle API</ProjectSkill>
-            <ProjectSkill>Maintenance App</ProjectSkill>
-            <ProjectSkill>Maintenance App</ProjectSkill>
-            <ProjectSkill>Maintenance App</ProjectSkill>
+            <ProjectSkill>React.js</ProjectSkill>
+            <ProjectSkill>Auth0</ProjectSkill>
+            <ProjectSkill>AWS</ProjectSkill>
+            <ProjectSkill>REST</ProjectSkill>
+            <ProjectSkill>Redux.js</ProjectSkill>
+            <ProjectSkill>C.R.U.D</ProjectSkill>
+            <ProjectSkill>Javascript</ProjectSkill>
+            <ProjectSkill>Vercel</ProjectSkill>
+            <ProjectSkill>MySQL</ProjectSkill>
+            <ProjectSkill>CSS</ProjectSkill>
+            <ProjectSkill>Express.js</ProjectSkill>
             
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
@@ -63,12 +66,18 @@ function Projects() {
           </ProjectImgContainer>
           <h4>Job Application Tracker</h4>
           <ProjectSkillsContainer>
-            <ProjectSkill>job</ProjectSkill>
-            <ProjectSkill>job</ProjectSkill>
-            <ProjectSkill>job</ProjectSkill>
-            <ProjectSkill>job</ProjectSkill>
-            <ProjectSkill>job</ProjectSkill>
-            <ProjectSkill></ProjectSkill>
+            <ProjectSkill>React.js</ProjectSkill>
+            <ProjectSkill>Vite.js</ProjectSkill>
+            <ProjectSkill>Multer.js</ProjectSkill>
+            <ProjectSkill>OpenAI API</ProjectSkill>
+            <ProjectSkill>Express.js</ProjectSkill>
+            <ProjectSkill>Puppeteer.js</ProjectSkill>
+            <ProjectSkill>PDF Reader.js</ProjectSkill>
+            <ProjectSkill>MySQL</ProjectSkill>
+            <ProjectSkill>Cheerio.js</ProjectSkill>
+            <ProjectSkill>Web Crawler</ProjectSkill>
+            <ProjectSkill>Auth0</ProjectSkill>
+            <ProjectSkill>styled-components.js</ProjectSkill>
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
@@ -99,12 +108,16 @@ function Projects() {
 
           <h4>AI Chatbot Tutor</h4>
           <ProjectSkillsContainer>
+            <ProjectSkill>Socket.io</ProjectSkill>
+            <ProjectSkill>Express</ProjectSkill>
+            <ProjectSkill>OpenAI API</ProjectSkill>
             <ProjectSkill>Tutor</ProjectSkill>
             <ProjectSkill>Tutor</ProjectSkill>
-            <ProjectSkill>Tutor</ProjectSkill>
-            <ProjectSkill>Tutor</ProjectSkill>
-            <ProjectSkill>Tutor</ProjectSkill>
-            <ProjectSkill></ProjectSkill>
+            <ProjectSkill>MySQL</ProjectSkill>
+            <ProjectSkill>React.js</ProjectSkill>
+            <ProjectSkill>ReCharts.js</ProjectSkill>
+            <ProjectSkill>styled-components.js</ProjectSkill>
+            <ProjectSkill>Vite.js</ProjectSkill>
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
@@ -195,6 +208,8 @@ border: 1px solid orangered;
   font-size:.75em;
   margin-bottom: 5px;
   color: orangered;
+  font-weight: bold;
+  padding: 1%;
 `
 
 const ButtonNav = styled.button`
