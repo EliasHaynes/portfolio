@@ -45,12 +45,12 @@ function Projects() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></ProjectVideo>
-          <h4>
+          <ProjectLink>
             Link to project repository:{" "}
             <a href="https://github.com/EliasHaynes/capstone">
               https://github.com/EliasHaynes/capstone
             </a>
-          </h4>
+          </ProjectLink>
         </ProjectContainer>
       );
     }
@@ -80,12 +80,12 @@ function Projects() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></ProjectVideo>
-          <h4>
+          <ProjectLink>
             Link to project repository:{" "}
             <a href="https://github.com/theMVPshop/jobAppTracker">
               https://github.com/theMVPshop/jobAppTracker
             </a>
-          </h4>
+          </ProjectLink>
         </ProjectContainer>
       );
     }
@@ -114,12 +114,12 @@ function Projects() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></ProjectVideo>
-          <h4>
+          <ProjectLink>
             Link to project repository:{" "}
             <a href="https://github.com/theMVPshop/chatbottutor">
               https://github.com/theMVPshop/chatbottutor
             </a>
-          </h4>
+          </ProjectLink>
         </ProjectContainer>
       );
     }
@@ -162,6 +162,7 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  justify-content:center;
   width: 100vw;
 `;
 
@@ -230,6 +231,12 @@ const ProjectImg = styled.img`
   box-shadow: -16px 6px orangered;
 `;
 
+const ProjectLink = styled.div`
+margin-top: 3%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+`;
 
 const ProjectVideo = styled.iframe`
   width: 50vw;
