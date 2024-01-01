@@ -36,7 +36,6 @@ function Projects() {
             <ProjectSkill>MySQL</ProjectSkill>
             <ProjectSkill>CSS</ProjectSkill>
             <ProjectSkill>Express.js</ProjectSkill>
-            
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
@@ -81,13 +80,9 @@ function Projects() {
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            src="https://www.guidejar.com/embed/64bf38df-8a7b-4621-98ef-b6a6a9f3c422?type=1&controls=on"
             allowfullscreen
+            frameborder="0"
           ></ProjectVideo>
           <ProjectLink>
             Link to project repository:{" "}
@@ -121,6 +116,8 @@ function Projects() {
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
+            width="560"
+            height="315"
             src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
             title="YouTube video player"
             frameborder="0"
@@ -175,7 +172,7 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   width: 100vw;
 `;
 
@@ -183,40 +180,40 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  background-color:rgb(63, 67, 71);
-  color:white;
+  background-color: rgb(63, 67, 71);
+  color: white;
 `;
 
 const PortfolioNav = styled.div`
   display: flex;
   justify-content: space-around;
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
 `;
 
 const ProjectSkillsContainer = styled.div`
-display:flex;
-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 `;
 
 const ProjectSkill = styled.span`
-border: 1px solid orangered;
-  border-radius:5px;
-  margin-right:5px;
-  font-size:.75em;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 0.75em;
   margin-bottom: 5px;
   color: orangered;
   font-weight: bold;
   padding: 1%;
-`
+`;
 
 const ButtonNav = styled.button`
-  width:30%;
+  width: 30%;
   border: none;
   background-color: rgb(63, 67, 71);
-  color:white;
+  color: white;
   border-bottom: 2px solid black;
   cursor: pointer;
   margin-bottom: 5%;
@@ -233,7 +230,6 @@ const ProjectImgContainer = styled.div`
   margin: 1px;
   width: 50%;
   height: 50%;
-
 `;
 
 const ProjectImg = styled.img`
@@ -247,19 +243,21 @@ const ProjectImg = styled.img`
 `;
 
 const ProjectLink = styled.div`
-margin-top: 3%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const ProjectVideo = styled.iframe`
   width: 50vw;
-  height: 30vh;
+  height: 40vh;
   border-radius: 20px;
   box-shadow: 30px -16px orangered;
+  @media (max-width: 768px) {
+    height:60vh;
+    width:70vw;
+  }
 `;
-
-
 
 export default Projects;
