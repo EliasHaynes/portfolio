@@ -116,13 +116,8 @@ function Projects() {
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            src="https://chatbottutor-7e7843ea9900.herokuapp.com/"
+            title="Embed of AI Chatbot Tutor"
           ></ProjectVideo>
           <ProjectLink>
             Link to project repository:{" "}
