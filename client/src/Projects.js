@@ -26,8 +26,8 @@ function Projects() {
           <h4>Scheduled Vehicle Maintenance</h4>
           <ProjectSkillsContainer>
             <ProjectSkill>React.js</ProjectSkill>
-            <ProjectSkill>Auth0</ProjectSkill>
-            <ProjectSkill>AWS</ProjectSkill>
+            <ProjectSkill>0Auth 2.0</ProjectSkill>
+            <ProjectSkill>AWS RDS</ProjectSkill>
             <ProjectSkill>REST</ProjectSkill>
             <ProjectSkill>Redux.js</ProjectSkill>
             <ProjectSkill>C.R.U.D</ProjectSkill>
@@ -36,16 +36,12 @@ function Projects() {
             <ProjectSkill>MySQL</ProjectSkill>
             <ProjectSkill>CSS</ProjectSkill>
             <ProjectSkill>Express.js</ProjectSkill>
+            <ProjectSkill>HTML</ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Watch this short project presentation:</h4>
+          <h4>Visit my application here!: <a href={"https://capstone-as3r.vercel.app/"}>https://capstone-as3r.vercel.app/</a></h4>
           <ProjectVideo
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            src="https://www.guidejar.com/embed/117f1771-930e-43a8-8bb9-0a45c6d8833e?type=1&controls=on"
+            title="Embed of vehicle maintenance app"
           ></ProjectVideo>
           <ProjectLink>
             Link to project repository:{" "}
@@ -75,7 +71,7 @@ function Projects() {
             <ProjectSkill>MySQL</ProjectSkill>
             <ProjectSkill>Cheerio.js</ProjectSkill>
             <ProjectSkill>Web Crawler</ProjectSkill>
-            <ProjectSkill>Auth0</ProjectSkill>
+            <ProjectSkill>0Auth 2.0</ProjectSkill>
             <ProjectSkill>styled-components.js</ProjectSkill>
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
