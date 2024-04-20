@@ -39,13 +39,8 @@ function Projects() {
           </ProjectSkillsContainer>
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/eN4wCX8p2Mc?si=MGWMIN3ob9GUojD0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            src="https://capstone-as3r.vercel.app/"
+            title="Embed of Vehicle Maintenance App"
           ></ProjectVideo>
           <ProjectLink>
             Link to project repository:{" "}
@@ -114,7 +109,7 @@ function Projects() {
             <ProjectSkill>styled-components.js</ProjectSkill>
             <ProjectSkill>Vite.js</ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Watch this short project presentation:</h4>
+          <h4>Try out my work:</h4>
           <ProjectVideo
             src="https://chatbottutor-7e7843ea9900.herokuapp.com/"
             title="Embed of AI Chatbot Tutor"
