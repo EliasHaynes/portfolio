@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 function About() {
     return (
-        <Container>
+        <Container id="about-page">
             <AboutMeContainer>
                 <AboutMeHeading>Who is Elias?</AboutMeHeading>
                 {/* <ul>

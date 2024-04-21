@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import vehicleImg from "./assets/Capstone-Icon-Ss.png";
+import vehicleImg from "./assets/Maintenance-app-screenshot.png";
 import jobImg from "./assets/Screenshot 2023-12-02 200024.png";
 import tutorImg from "./assets/Screenshot 2023-12-02 195841.png";
 
@@ -38,10 +38,11 @@ function Projects() {
             <ProjectSkill>Express.js</ProjectSkill>
             <ProjectSkill>HTML</ProjectSkill>
           </ProjectSkillsContainer>
-          <h4>Visit my application here!: <a href={"https://capstone-as3r.vercel.app/"}>https://capstone-as3r.vercel.app/</a></h4>
+          <h4>Visit my application here!: <a className="project-hyperlinks" href={"https://capstone-as3r.vercel.app/"}>https://capstone-as3r.vercel.app/</a></h4>
           <ProjectVideo
             src="https://www.guidejar.com/embed/117f1771-930e-43a8-8bb9-0a45c6d8833e?type=1&controls=on"
             title="Embed of vehicle maintenance app"
+            allowFullScreen
           ></ProjectVideo>
           <ProjectLink>
             Link to project repository:{" "}
@@ -77,7 +78,7 @@ function Projects() {
           <h4>Watch this short project presentation:</h4>
           <ProjectVideo
             src="https://www.guidejar.com/embed/64bf38df-8a7b-4621-98ef-b6a6a9f3c422?type=1&controls=on"
-            allowfullscreen
+            allowFullScreen
             frameborder="0"
           ></ProjectVideo>
           <ProjectLink>
@@ -127,7 +128,7 @@ function Projects() {
   }
 
   return (
-    <Container>
+    <Container id="projects-page">
       <h2>My Latest Work</h2>
       <div>
         <PortfolioNav>

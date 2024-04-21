@@ -6,7 +6,7 @@ const key = process.env.ACCESS_KEY;
 function Contact() {
   
   return (
-    <Container>
+    <Container id="contact-page">
       <h2>Contact Me</h2>
 
 
@@ -60,7 +60,7 @@ border-radius: 20px;
 @media(max-width: 768px) {
   box-shadow: 20px -10px orangered;
   width: 85%;
-
+  margin-top: 10%;
 }
 `;
 
@@ -68,6 +68,9 @@ const InputContainer = styled.div`
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
+  @media(max-width: 760px) {
+    flex-flow: column nowrap;
+  }
 `;
 
 const Input = styled.input`
@@ -76,6 +79,10 @@ const Input = styled.input`
   border-bottom: 1px solid orangered;
   margin-right: 5%;
   color: white;
+  @media(max-width: 760px) {
+    display:flex;
+    margin-top: 10%;
+  }
 `;
 
 const Submit = styled.button`

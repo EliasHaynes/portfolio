@@ -7,7 +7,7 @@ import PDFViewer from "./PDFViewer";
 function Resume() {
   
   return (
-    <Container>
+    <Container id="resume-page">
       <h2>My Experience</h2>
 <PDFViewer></PDFViewer>
     </Container>
