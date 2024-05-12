@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/client/static/css/main.0a3d771f.css",
-    "main.js": "/portfolio/client/static/js/main.d1130c0f.js",
+    "main.js": "/portfolio/client/static/js/main.ddb23576.js",
     "static/media/Maintenance-app-screenshot.png": "/portfolio/client/static/media/Maintenance-app-screenshot.41ca705f58f604723277.png",
     "static/media/Screenshot 2023-12-02 200024.png": "/portfolio/client/static/media/Screenshot 2023-12-02 200024.c68476265c65b4b1f699.png",
     "static/media/Screenshot 2023-12-02 195841.png": "/portfolio/client/static/media/Screenshot 2023-12-02 195841.eb1508c5b8b6ad5f9485.png",
     "static/media/Elias-Haynes-SWE-Resume.pdf": "/portfolio/client/static/media/Elias-Haynes-SWE-Resume.a2a813f819e68dfab714.pdf",
     "index.html": "/portfolio/client/index.html",
     "main.0a3d771f.css.map": "/portfolio/client/static/css/main.0a3d771f.css.map",
-    "main.d1130c0f.js.map": "/portfolio/client/static/js/main.d1130c0f.js.map"
+    "main.ddb23576.js.map": "/portfolio/client/static/js/main.ddb23576.js.map"
   },
   "entrypoints": [
     "static/css/main.0a3d771f.css",
-    "static/js/main.d1130c0f.js"
+    "static/js/main.ddb23576.js"
   ]
 }
